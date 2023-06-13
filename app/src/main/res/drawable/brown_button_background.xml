@@ -1,0 +1,5 @@
+<!-- brown_button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#D4A373" /> <!-- Brown color -->
+    <corners android:radius="30dp" /> <!-- Rounded corners of 10dp -->
+</shape>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pareorder2"
+    android:layout_width="1500px"
+    android:layout_height="150px"
+    app:cardBackgroundColor="@color/go_on"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    android:padding="10dp"
+    android:layout_marginLeft="50px"
+    android:layout_marginTop="40px"
+    >
+
+    <TextView
+        android:id="@+id/txthisTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:padding="10dp"
+        android:textColor="@color/go_on"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/txthisname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="48px"
+        android:layout_marginTop="45px"
+        android:layout_marginLeft="20px"
+        />
+
+    <TextView
+        android:id="@+id/txthisstatus"
+        android:text="1223"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48px"
+        android:layout_marginLeft="1250px"
+        android:layout_marginTop="45px"/>
+
+
+
+    <TextView
+        android:id="@+id/txthiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textStyle="bold"
+        android:textSize="48px"
+        android:layout_marginLeft="800px"
+        android:layout_marginTop="45px"/>
+
+
+
+
+</androidx.cardview.widget.CardView>

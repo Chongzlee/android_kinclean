@@ -1,0 +1,17 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- First shape with base color #A58566 -->
+    <solid android:color="#D4A373" />
+    <corners android:radius="10dp" />
+
+        <!-- Second shape with color #D4A373 -->
+        <shape>
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp" />
+            <corners android:radius="10dp" />
+            <solid android:color="#D4A373" />
+        </shape>
+
+</shape>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="530px"
+    android:layout_height="700px"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:padding="20dp"
+    android:layout_marginLeft="150px"
+    android:layout_marginTop="100px"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+            android:id="@+id/imgUrl"
+            android:layout_width="match_parent"
+            android:layout_height="530px"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtname"
+            android:text="สเต็กซี่โครงสะพานโค้ง"
+            android:textSize="30px"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imgUrl"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtprice"
+            android:text="price"
+            android:textSize="40px"
+            android:textStyle="italic"
+            android:layout_below="@id/txtname"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txttype"
+            android:text="aomsin"
+            android:textSize="-1000px"
+            android:layout_below="@id/txtprice"
+            android:textColor="@color/white"/>
+
+
+
+        <!--        <TextView-->
+<!--            android:id="@+id/txtname"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:text="Contact Name"-->
+<!--            android:textStyle="bold" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtemail"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/txtname"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="Contact Email"-->
+<!--            android:textStyle="italic"-->
+<!--            android:layout_marginStart="5dp"/>-->
+<!--        android:layout_below="@id/txtemail"-->
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

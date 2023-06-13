@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_history"
+    android:background="@color/base">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contractrecycle2"
+        android:layout_width="757dp"
+        android:layout_height="648dp"
+        android:layout_marginTop="140px"
+        android:padding="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="165px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-15dp"
+        android:background="@color/base2" />
+
+    <TextView
+        android:id="@+id/txttop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ประวัติการสั่งอาหาร"
+        android:textSize="75px"
+        android:shadowColor="@color/black"
+        android:textColor="@color/base"
+        android:elevation="2dp"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="30px"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="165dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-10dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnback2"
+        android:layout_width="364dp"
+        android:layout_height="64dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="1680px"
+        android:layout_marginTop="750px"
+        android:layout_marginRight="116dp"
+        android:background="@drawable/button_bgback"
+        android:elevation="5dp"
+        android:text="กลับหน้าเมนู"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="50px" />
+
+
+    <TextView
+        android:id="@+id/allpricehis"
+        android:layout_width="453dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="1600px"
+        android:layout_marginTop="490px"
+        android:layout_marginRight="150px"
+        android:background="@drawable/rounded_corner_background"
+        android:text="   ราคารวม                                 price"
+
+        android:textSize="60px" />
+
+    <Button
+        android:id="@+id/btnreceipt"
+        android:text="ยืนยันการจ่ายตัง"
+        android:layout_width="364dp"
+        android:layout_height="68dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="1680px"
+        android:layout_marginTop="600px"
+        android:layout_marginRight="116dp"
+        android:background="@drawable/button_bggo"
+        android:elevation="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="50px"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewbelow"
+        android:layout_width="match_parent"
+        android:layout_height="165px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-15dp"
+        android:background="@color/base2"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:id="@+id/imglogo2"
+        android:layout_width="165dp"
+        android:layout_height="135dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="540dp"
+        android:layout_marginBottom="-38dp"
+        app:srcCompat="@drawable/logo" />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/taxtcunt"-->
+<!--        android:text="ไม่พบประวัติการสั่งอาหาร"-->
+<!--        android:textSize="50px"-->
+<!--        android:layout_marginTop="690px"-->
+<!--        android:layout_marginLeft="400px"-->
+<!--        android:shadowColor="@color/black"-->
+<!--        android:elevation="2dp"-->
+<!--        />-->
+
+
+</RelativeLayout>

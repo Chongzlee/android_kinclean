@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A_Firstpage"
+    android:background="@color/base"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageViewtop"
+        android:layout_width="1295dp"
+        android:layout_height="590dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-15dp"
+        android:background="@drawable/first"
+        android:padding="10dp" />
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="760px"
+        android:layout_height="130px"
+        android:layout_centerHorizontal="true"
+        android:text="กินอะไรดีจ้ะ"
+        android:textSize="90px"
+        android:textColor="@color/white"
+        android:layout_marginTop="1080px"
+
+        android:background="@drawable/brown_button_background"
+        android:elevation="8dp"  />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="615dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="150px"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageViewbelow"
+        android:layout_width="match_parent"
+        android:layout_height="165px"
+        android:layout_alignParentRight="true"
+       android:layout_marginTop="1130px"
+        android:layout_marginRight="-15dp"
+        android:background="@color/base2"
+        android:padding="10dp"/>
+
+
+
+</RelativeLayout>

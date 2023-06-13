@@ -1,0 +1,73 @@
+<!-- recyclerview_item.xml -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pareorder"
+    android:layout_width="1300px"
+    android:layout_height="150px"
+    app:cardBackgroundColor="@color/go_on"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    android:padding="10dp"
+    android:layout_marginLeft="150px"
+    android:layout_marginTop="40px"
+    >
+
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:padding="10dp"
+        android:textColor="@color/go_on"
+        />
+
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="48px"
+        android:layout_marginTop="45px"
+        android:layout_marginLeft="20px"/>
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:textSize="48px"
+        android:layout_marginLeft="1100px"
+        android:layout_marginTop="45px"/>
+
+    <TextView
+        android:id="@+id/quantityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textStyle="bold"
+        android:textSize="40px"
+        android:layout_marginLeft="950px"
+        android:layout_marginTop="45px"/>
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="1000px"
+        android:layout_marginTop="50px"
+        android:background="@drawable/ic_add"  />
+
+    <Button
+        android:id="@+id/btnremove"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="880px"
+        android:layout_marginTop="50px"
+        android:background="@drawable/ic_remove"
+
+        />
+
+
+</androidx.cardview.widget.CardView>
